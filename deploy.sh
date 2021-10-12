@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-# PROJECT_NAME="Name or your frontend project, for example movie --> folder you created under /var/www"
-# DROPLET_URL="URL for your droplet"
+ PROJECT_NAME="CA-Frontend"
+ DROPLET_URL="www.theagns.com"
 echo -n "please enter the project name as it appears on the server in /var/www/"
 read -r 
 PROJECT_NAME=$REPLY
